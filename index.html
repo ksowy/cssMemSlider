@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Meme SLider</title>
+  </head>
+  <body>
+    <div id="slider">
+      <input type="radio" name="slider" id="slide1" checked />
+      <input type="radio" name="slider" id="slide2" />
+      <input type="radio" name="slider" id="slide3" />
+      <input type="radio" name="slider" id="slide4" />
+      <div id="slides">
+        <div id="overflow">
+          <div class="inner">
+            <div class="slide slide_1">
+              <div class="slide-content">
+                <img
+                  src="/img/first-meme-for-slider.jpg"
+                  alt="first-meme-for-slider"
+                />
+                <span class="slider-desc">am i desc?</span>
+              </div>
+            </div>
+            <div class="slide slide_2">
+              <div class="slide-content">
+                <img
+                  src="/img/second-meme-for-slider.jpg"
+                  alt="second-meme-for-slider"
+                />
+                <span class="slider-desc">im desc!</span>
+              </div>
+            </div>
+            <div class="slide slide_3">
+              <div class="slide-content">
+                <img
+                  src="/img/third-meme-for-slider.jpg"
+                  alt="third-meme-for-slider"
+                />
+                <span class="slider-desc">wkek</span>
+              </div>
+            </div>
+            <div class="slide slide_4">
+              <div class="slide-content">
+                <img
+                  src="/img/fourth-meme-for-slider.jpg"
+                  alt="fourth-meme-for-slider"
+                />
+                <span class="slider-desc">kekw</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+      <div id="bullets">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+    </div>
+  </body>
+</html>
